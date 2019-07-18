@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="1.60.6" />
+    <PackageReference Include="Oracle.ManagedDataAccess.Core" Version="2.19.31" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\API.Trade.Common\API.Trade.Common.csproj" />
+    <ProjectReference Include="..\API.Trade.Shared\API.Trade.Shared.csproj" />
+  </ItemGroup>
+
+</Project>
